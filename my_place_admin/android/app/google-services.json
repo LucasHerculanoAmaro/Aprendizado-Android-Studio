@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749938777776",
+    "project_id": "my-place-b5c1d",
+    "storage_bucket": "my-place-b5c1d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749938777776:android:4451f3d4438f9de56fe575",
+        "android_client_info": {
+          "package_name": "com.example.my_place_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHewd3MiEUQQtMsN2aUr4MhKMfQhuE69w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
