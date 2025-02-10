@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Conhecendo os Componentes
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"> -->
+
+    <!-- Conhecendo TextView
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inserindo um texto na janela"
+        />-->
+
+    <!-- Conhecendo EditText
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entre com seu nome"
+        android:inputType="textPersonName"
+        />-->
+
+    <!-- Conhecendo CheckBox
+    <CheckBox
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Tenho mais de 18 anos." />-->
+
+    <!-- Conhecendo CheckBock "False"
+    <CheckBox
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Tenho mais de 18 anos." />-->
+
+    <!-- Conhecendo RadioButton
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/sexo masculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/sexo_feminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino" />
+    </RadioGroup>-->
+
+    <!-- Conhecendo ImageView
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground" />-->
+
+    <!-- Conhecendo Button
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar" />-->
+
+    <!-- Conhecendo ImageButton
+    <ImageButton
+        android:id="@+id/btnEntrar"
+        android:layout_width="63dp"
+        android:layout_height="73dp"
+        android:src="@drawable/ic_launcher_foreground" />-->
+
+    <!-- Conhecendo DatePicker
+    <DatePicker
+        android:id="@+id/dtpAgenda"
+        android:layout_width="wrap_content"
+        android:layout_height="225dp" />-->
+
+    <!-- Conhecendo TimePicker
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+<!-- </LinearLayout> -->
+
+
+<!-- Conhecendo RelativeLayout
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="#2d2d2d" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200px"
+        android:hint="Entre com usuário"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Entre com sua senha"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Entrar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Sair"/>
+
+</LinearLayout>
+
+-->
+
+<!-- Conhecendo TableLayout
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="#2d2d2d" />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginTop="20dp"
+        android:hint="Entre com usuário"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUsuario"
+        android:layout_marginTop="20dp"
+        android:hint="Entre com sua senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtSenha"
+        android:layout_marginTop="20dp"
+        android:text="Entrar" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEntrar"
+        android:layout_marginTop="20dp"
+        android:text="Sair" />
+
+</RelativeLayout>
+
+-->
+
+<!-- FrameLayout
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:src="#2d2d2d" />
+
+</FrameLayout>
+
+-->
+
+<!-- Conhecendo ScrowView -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/imgLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="56dp"
+            android:src="#2d2d2d" />
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Entre com usuário"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtsenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Entre com sua senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnEntrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Entrar" />
+
+        <Button
+            android:id="@+id/btnSair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sair" />
+
+    </LinearLayout>
+
+</ScrollView>
